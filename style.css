@@ -8,6 +8,12 @@ html {
     background-color: #ecf0f1;
 }
 
+#main {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 
 
 header {
@@ -18,6 +24,7 @@ header {
     padding: 15px;
     width: 100%;
     text-align: center;
+    border-radius: 4px;
 }
 
 .menu ul {
@@ -34,7 +41,8 @@ header {
     background-color: #e74c3c;
     color: #ecf0f1;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    font-family: "Oswald"
+    font-family: "Oswald";
+    border-radius: 4px;
 
 }
 
@@ -58,11 +66,30 @@ header {
 
 .right {
     float: right;
+    font-family: "Source Sans Pro";
+    background-color: #2980b9;
+    padding: 18px;
+    border-radius: 4px;
+    text-align: center;
 }
 
+.right h3 {
+    font-family: "Oswald";
+    text-align: center;
+}
 
+.col-6 {
+    font-family: "Source Sans Pro";
+
+}
 
 
 footer {
     clear: both;
+    background-color: #16a085;
+    font-family: "Source Sans Pro";
+    padding: 6px;
+    border-radius: 4px;
+    text-align: center;
+
 }
