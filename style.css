@@ -39,7 +39,7 @@ header {
 .menu ul {
     list-style-type: none;
     margin: 0;
-    padding: 15px;
+
 }
 
 .menu li {
@@ -75,10 +75,11 @@ header {
 
     font-family: "Source Sans Pro";
     background-color: #2980b9;
-    padding: 18px;
     border-radius: 4px;
     text-align: center;
     margin-bottom: 20px;
+    padding-color: #ecf0f1;
+
 }
 
 .right h3 {
@@ -115,8 +116,40 @@ footer {
 
 }
 
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
+
+/*      MEDIA QUERIES      */
+
+
+/*      FOR MOBILE PHONES   */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+/*      FOR TABLETS     */
+
+@media only screen and (min-width: 600px) {
+    .col-m-3 {width: 25%;}
+    .col-6 {width: 70%;}
+
+}
+
+@media only screen and (min-width: 768px) {
+    .col-6 {width: 50%;}
+    .col-3 {width: 25%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
